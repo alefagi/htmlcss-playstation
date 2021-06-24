@@ -1,7 +1,5 @@
 
-body {
-  background-color: red;
-}
+
 
 
 /* Header */
@@ -31,4 +29,8 @@ header {
 #jumbo-1 .jumbotron .row {
   position: absolute;
   bottom: 13%;
+}
+
+#game-list img {
+  border-radius: 15px;
 }
