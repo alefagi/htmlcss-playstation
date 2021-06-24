@@ -4,6 +4,10 @@ body {
 }
 
 header {
-  height: 80px;
-  background-color: aqua;
+  height: 106px;
 }
+
+.brand {
+  height: 30px;
+}
+
