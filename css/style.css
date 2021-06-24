@@ -1,3 +1,9 @@
+
 body {
   background-color: red;
+}
+
+header {
+  height: 80px;
+  background-color: aqua;
 }
