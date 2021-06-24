@@ -3,6 +3,8 @@ body {
   background-color: red;
 }
 
+
+/* Header */
 header {
   height: 106px;
 }
@@ -11,3 +13,22 @@ header {
   height: 30px;
 }
 
+
+/* Main */
+.jumbotron {
+  height: 620px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  
+}
+
+#jumbo-1 .jumbotron {
+  margin-top: 106px;
+  background-image: url(".././img/jumbo-bg.png");
+}
+
+#jumbo-1 .jumbotron .row {
+  position: absolute;
+  bottom: 13%;
+}
