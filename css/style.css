@@ -3,6 +3,7 @@
   border-radius: 15px;
 }
 
+
 /* Header */
 header {
   height: 106px;
@@ -19,7 +20,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
-  
 }
 
 #jumbo-1 {
@@ -41,4 +41,8 @@ header {
 
 .ms-btn-ps-plus {
   background-color: #d9dadc;
+}
+
+#ps-now {
+  background-color: #161c3b;
 }
