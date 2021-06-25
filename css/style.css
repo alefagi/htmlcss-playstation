@@ -1,8 +1,7 @@
-body {
-  overflow-x: hidden;
+/* Utils */
+.ms-rounded-15 {
+  border-radius: 15px;
 }
-
-
 
 /* Header */
 header {
@@ -23,25 +22,18 @@ header {
   
 }
 
-#jumbo-1 .jumbotron {
+#jumbo-1 {
   margin-top: 106px;
   background-image: url("../img/jumbo-bg.png");
 }
 
-#jumbo-1 .jumbotron .row {
-  position: absolute;
-  bottom: 13%;
-}
 
-#game-list img {
-  border-radius: 15px;
-}
+
 
 #jumbo-2 {
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
-#jumbo-2.jumbotron .row {
-  position: absolute;
-  bottom: 13%;
+#new-releases {
+  background-color: #1f1f1f;
 }
