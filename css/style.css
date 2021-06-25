@@ -39,3 +39,11 @@ header {
   flex: 1 1 auto;
   padding: 0 1rem;
 }
+
+#ps-plus {
+  background-color: #bebcbb;
+}
+
+.ms-btn-ps-plus {
+  background-color: #d9dadc;
+}
