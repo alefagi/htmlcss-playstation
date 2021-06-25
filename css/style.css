@@ -25,7 +25,7 @@ header {
 
 #jumbo-1 .jumbotron {
   margin-top: 106px;
-  background-image: url(".././img/jumbo-bg.png");
+  background-image: url("../img/jumbo-bg.png");
 }
 
 #jumbo-1 .jumbotron .row {
@@ -35,4 +35,13 @@ header {
 
 #game-list img {
   border-radius: 15px;
+}
+
+#jumbo-2 {
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+#jumbo-2.jumbotron .row {
+  position: absolute;
+  bottom: 13%;
 }
