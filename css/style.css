@@ -13,6 +13,73 @@
   margin-top: -4px;
 }
 
+.ms-btn-primary {
+  color: #fff;
+  background-color: #0070d1;
+  border-width: 2px;
+}
+
+.ms-btn-primary:hover {
+  color: #fff;
+  background-color: #0070d1;
+  border-color: #fff;
+  border-width: 2px;
+  box-shadow: 0 0 0 2px #0070d1;
+}
+
+.ms-btn-dark {
+  color: #fff;
+  background-color: #000;
+  border-width: 2px;
+  padding: 0 0.75rem;
+}
+
+.ms-btn-dark:hover {
+  color: #fff;
+  background-color: #646970;
+  border-color: #fff;
+  border-width: 2px;
+  box-shadow: 0 0 0 2px #646970;
+  padding: 0 0.75rem;
+}
+
+.ms-btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-width: 2px;
+}
+
+.ms-btn-danger:hover {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #000;
+  border-width: 2px;
+  box-shadow: 0 0 0 2px #dc3545;
+}
+
+.ms-btn-light {
+  color: #000;
+  background-color: #f9fafb;
+  border-width: 2px;
+}
+
+.ms-btn-light:hover {
+  color: #000;
+  background-color: #f9fafb;
+  border-color: #000;
+  border-width: 2px;
+  box-shadow: 0 0 0 2px #f9fafb;
+}
+
+.ms-btn-ps-plus {
+  background-color: #d9dadc;
+}
+
+.ms-btn-ps-plus:hover {
+  background-color: #d9dadc;
+  box-shadow: 0 0 0 3px rgba(217, 218, 220, 0.5);
+}
+
 
 /* Header */
 header {
@@ -79,10 +146,6 @@ header {
   background-color: #bebcbb;
 }
 
-.ms-btn-ps-plus {
-  background-color: #d9dadc;
-}
-
 #ps-now {
   background-color: #161c3b;
 }
@@ -95,4 +158,9 @@ footer {
 
 img[alt=language] {
   width: 3%;
+}
+
+
+.ps5-card {
+  border-bottom: 3px solid #0070d1;
 }
