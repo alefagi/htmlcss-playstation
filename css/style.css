@@ -32,7 +32,6 @@
 
 .ms-btn-dark {
   background-color: #000;
-  padding: 0 0.75rem;
 }
 
 .ms-btn-dark:hover {
@@ -40,7 +39,6 @@
   background-color: #646970;
   border-color: #fff;
   box-shadow: 0 0 0 2px #646970;
-  padding: 0 0.75rem;
 }
 
 .ms-btn-danger {
