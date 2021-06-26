@@ -6,11 +6,15 @@
 .ms-img-thumbnail {
   padding: 2px;
   background-color: #fff;
-  border: 2px solid #0070d1;
+  border: 2px solid #0072ce;
   max-width: 100%;
   height: auto;
   box-sizing: content-box;
   margin-top: -4px;
+}
+
+.ms-text-primary {
+  color: #0072ce;
 }
 
 .ms-btn {
@@ -20,18 +24,18 @@
 }
 
 .ms-btn-primary {
-  background-color: #0070d1;
+  background-color: #2d64e6;
 }
 
 .ms-btn-primary:hover {
   color: #fff;
-  background-color: #0070d1;
+  background-color: #2d64e6;
   border-color: #fff;
-  box-shadow: 0 0 0 2px #0070d1;
+  box-shadow: 0 0 0 2px #2d64e6;
 }
 
 .ms-btn-dark {
-  background-color: #000;
+  background-color: #363636;
 }
 
 .ms-btn-dark:hover {
@@ -42,14 +46,14 @@
 }
 
 .ms-btn-danger {
-  background-color: #dc3545;
+  background-color: #cd3d0f;
 }
 
 .ms-btn-danger:hover {
   color: #fff;
-  background-color: #dc3545;
+  background-color: #cd3d0f;
   border-color: #000;
-  box-shadow: 0 0 0 2px #dc3545;
+  box-shadow: 0 0 0 2px #cd3d0f;
 }
 
 .ms-btn-light {
@@ -65,26 +69,29 @@
 }
 
 .ms-btn-ps-plus {
+  color: #2d64e6;
   background-color: #d9dadc;
 }
 
 .ms-btn-ps-plus:hover {
+  color: #2d64e6;
   background-color: #d9dadc;
   box-shadow: 0 0 0 3px rgba(217, 218, 220, 0.5);
 }
 
 
 /* Header */
-header {
-  height: 106px;
+.brand {
+  height: 36px;
 }
 
-.brand {
-  height: 30px;
+.ms-navbar-padding {
+  padding: 2px 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: #000;
+  font-weight: 500;
 }
 
 .navbar-light .navbar-nav img[alt=chevron-down-solid-hover] {
@@ -92,7 +99,7 @@ header {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #0070d1;
+  color: #0072ce;
 }
 
 .navbar-light .navbar-nav .nav-link:hover img[alt=chevron-down-solid] {
@@ -114,7 +121,7 @@ header {
 }
 
 #jumbo-1 {
-  margin-top: 106px;
+  margin-top: 100px;
   background-image: url("../img/jumbo-bg.png");
 }
 
@@ -127,12 +134,18 @@ header {
 }
 
 .ps5-first-card {
-  border-bottom: 3px solid #0070d1;
+  border-bottom: 3px solid #0072ce;
+  font-weight: 500;
 }
 
 .ps5-card {
+  font-weight: 500;
   filter: opacity(60%);
   transition: filter 0.8s;
+}
+
+.ps5-card p {
+  color: #000;
 }
 
 .ps5-card:hover {
