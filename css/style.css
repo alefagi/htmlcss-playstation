@@ -3,10 +3,18 @@
   border-radius: 15px;
 }
 
+.ms-font-weight-500 {
+  font-weight: 500;
+}
+
+.ms-w-60 {
+  width: 60%;
+}
+
 .ms-img-thumbnail {
   padding: 2px;
   background-color: #fff;
-  border: 2px solid #0072ce;
+  border: 2px solid #0070d1;
   max-width: 100%;
   height: auto;
   box-sizing: content-box;
@@ -14,7 +22,7 @@
 }
 
 .ms-text-primary {
-  color: #0072ce;
+  color: #0070d1;
 }
 
 .ms-btn {
@@ -24,14 +32,14 @@
 }
 
 .ms-btn-primary {
-  background-color: #2d64e6;
+  background-color: #0070d1;
 }
 
 .ms-btn-primary:hover {
   color: #fff;
-  background-color: #2d64e6;
+  background-color: #0070d1;
   border-color: #fff;
-  box-shadow: 0 0 0 2px #2d64e6;
+  box-shadow: 0 0 0 2px #0070d1;
 }
 
 .ms-btn-dark {
@@ -69,15 +77,16 @@
 }
 
 .ms-btn-ps-plus {
-  color: #2d64e6;
+  color: #0070d1;
   background-color: #d9dadc;
 }
 
 .ms-btn-ps-plus:hover {
-  color: #2d64e6;
+  color: #0070d1;
   background-color: #d9dadc;
   box-shadow: 0 0 0 3px rgba(217, 218, 220, 0.5);
 }
+
 
 
 /* Header */
@@ -91,7 +100,6 @@
 
 .navbar-light .navbar-nav .nav-link {
   color: #000;
-  font-weight: 500;
 }
 
 .navbar-light .navbar-nav img[alt=chevron-down-solid-hover] {
@@ -99,7 +107,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #0072ce;
+  color: #0070d1;
 }
 
 .navbar-light .navbar-nav .nav-link:hover img[alt=chevron-down-solid] {
@@ -133,22 +141,20 @@
   transition: transform 0.5s;
 }
 
-.ps5-first-card {
-  border-bottom: 3px solid #0072ce;
-  font-weight: 500;
+#ps5-console .ps5-first-card {
+  border-bottom: 3px solid #0070d1;
 }
 
-.ps5-card {
-  font-weight: 500;
+#ps5-console .ps5-card {
   filter: opacity(60%);
   transition: filter 0.8s;
 }
 
-.ps5-card p {
+#ps5-console .ps5-card p {
   color: #000;
 }
 
-.ps5-card:hover {
+#ps5-console .ps5-card:hover {
   filter: opacity(1);
 }
 
@@ -175,7 +181,7 @@ footer {
   background-color: #00439c;
 }
 
-img[alt=language] {
+footer img[alt=language] {
   width: 3%;
 }
 
