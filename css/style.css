@@ -161,6 +161,15 @@ img[alt=language] {
 }
 
 
-.ps5-card {
+.ps5-first-card {
   border-bottom: 3px solid #0070d1;
+}
+
+.ps5-card {
+  filter: opacity(60%);
+  transition: filter 0.7s;
+}
+
+.ps5-card:hover {
+  filter: opacity(1);
 }
