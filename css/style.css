@@ -167,7 +167,7 @@ img[alt=language] {
 
 .ps5-card {
   filter: opacity(60%);
-  transition: filter 0.7s;
+  transition: filter 0.8s;
 }
 
 .ps5-card:hover {
