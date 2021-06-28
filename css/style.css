@@ -11,6 +11,10 @@
   width: 60%;
 }
 
+.ms-bg-light {
+  background-color: #fff;
+}
+
 .ms-img-thumbnail {
   padding: 2px;
   background-color: #fff;
