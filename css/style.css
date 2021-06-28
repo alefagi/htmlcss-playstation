@@ -141,8 +141,9 @@
   transition: transform 0.5s;
 }
 
-#ps5-console .ps5-first-card {
+#ps5-console .row:last-child div:first-child {
   border-bottom: 3px solid #0070d1;
+  filter: opacity(1);
 }
 
 #ps5-console .ps5-card {
