@@ -15,6 +15,10 @@
   background-color: #fff;
 }
 
+.ms-bg-dark {
+  background-color: #000;
+}
+
 .ms-img-thumbnail {
   padding: 2px;
   background-color: #fff;
